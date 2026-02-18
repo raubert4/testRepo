@@ -6,14 +6,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.3" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="10.0.1" />
     <PackageReference Include="Radzen.Blazor" Version="8.4.2" />
+    <PackageReference Include="TG.Blazor.IndexedDB" Version="1.5.0-preview" />
   </ItemGroup>
 
   <ItemGroup>
