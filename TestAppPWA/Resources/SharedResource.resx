@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_TextWelcome" xml:space="preserve">
+    <value>Welcome to mobile app of AR²Timing.</value>
+  </data>
+  <data name="Home_TextGoToAR2Timing" xml:space="preserve">
+    <value>To see all results, go to</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Menu_Races" xml:space="preserve">
+    <value>Races</value>
+  </data>
+  <data name="Menu_Timing" xml:space="preserve">
+    <value>Timing</value>
+  </data>
+  <data name="Menu_TimingOverview" xml:space="preserve">
+    <value>Timing Overview</value>
+  </data>
+  <data name="Menu_CreateRace" xml:space="preserve">
+    <value>Create new race</value>
+  </data>
+  <data name="Menu_Participants" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="Menu_StartRace" xml:space="preserve">
+    <value>Start race</value>
+  </data>
+  <data name="Menu_Passings" xml:space="preserve">
+    <value>Passings</value>
+  </data>
+  <data name="Menu_RankingScratch" xml:space="preserve">
+    <value>Ranking Scratch</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Gen_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="About_Label_AppVersion" xml:space="preserve">
+    <value>App version :</value>
+  </data>
+  <data name="About_Bt_ClearRace" xml:space="preserve">
+    <value>Clear current race data</value>
+  </data>
+  <data name="About_Bt_UpdateFromJson" xml:space="preserve">
+    <value>Update current race with clipboard data</value>
+  </data>
+  <data name="About_Bt_CopyToJson" xml:space="preserve">
+    <value>Copy current race data to Clipboard</value>
+  </data>
+  <data name="About_Bt_TestCon" xml:space="preserve">
+    <value>Test connection</value>
+  </data>
+  <data name="About_Label_Lang" xml:space="preserve">
+    <value>Language :</value>
+  </data>
+  <data name="About_Err_CastJsonToRace" xml:space="preserve">
+    <value>Error while parsing race date !</value>
+  </data>
+  <data name="About_Label_UniqueId" xml:space="preserve">
+    <value>Unique Id :</value>
+  </data>
+  <data name="Gen_Err_NoCurrentRace" xml:space="preserve">
+    <value>No current race !</value>
+  </data>
+  <data name="Gen_Err_NoParticipant" xml:space="preserve">
+    <value>No participant !</value>
+  </data>
+  <data name="About_Text_SureClearData" xml:space="preserve">
+    <value>Are you sure to clear all results and participants ?</value>
+  </data>
+  <data name="About_Text_CopiedToClipboard" xml:space="preserve">
+    <value>Current race data copied to clipboard</value>
+  </data>
+  <data name="About_Text_DataCleared" xml:space="preserve">
+    <value>Race '{0}' cleared</value>
+  </data>
+  <data name="Races_Text_RaceSelected" xml:space="preserve">
+    <value>Race '{0}' selected</value>
+  </data>
+  <data name="Participants_Text_NbImported" xml:space="preserve">
+    <value>{0} participants imported</value>
+  </data>
+  <data name="Passings_Text_NbSent" xml:space="preserve">
+    <value>{0} passings sent</value>
+  </data>
+  <data name="About_Text_ConKo" xml:space="preserve">
+    <value>Connexion {0} KO</value>
+  </data>
+  <data name="About_Text_ConOk" xml:space="preserve">
+    <value>Connexion {0} OK</value>
+  </data>
+  <data name="CreateRace_Lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreateRace_Lbl_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CreateRace_Lbl_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CreateRace_Lbl_Ar2tCode" xml:space="preserve">
+    <value>AR²Timing code</value>
+  </data>
+  <data name="CreateRace_Lbl_Server" xml:space="preserve">
+    <value>DEV server</value>
+  </data>
+  <data name="CreateRace_Txt_CreationDone" xml:space="preserve">
+    <value>New race saved</value>
+  </data>
+  <data name="Gen_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Gen_Validate" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="Gen_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Gen_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Gen_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Gen_NotSent" xml:space="preserve">
+    <value>Not sent</value>
+  </data>
+  <data name="Gen_NotStarted" xml:space="preserve">
+    <value>Not started</value>
+  </data>
+  <data name="Gen_StartedAt" xml:space="preserve">
+    <value>Started at {0}</value>
+  </data>
+  <data name="Gen_NotImplemented" xml:space="preserve">
+    <value>Not implemented yet !</value>
+  </data>
+  <data name="Gen_Err_MissingField" xml:space="preserve">
+    <value>Missing '{0}' !</value>
+  </data>
+  <data name="Races_Bt_ImportRaces" xml:space="preserve">
+    <value>Import a race</value>
+  </data>
+  <data name="Races_Lbl_NbPassings" xml:space="preserve">
+    <value>Nb passings :</value>
+  </data>
+  <data name="Races_Lbl_NbParticipants" xml:space="preserve">
+    <value>Nb participants :</value>
+  </data>
+  <data name="Participants_Bt_AddPart" xml:space="preserve">
+    <value>Add participant</value>
+  </data>
+  <data name="Participants_Bt_Import" xml:space="preserve">
+    <value>Import participants</value>
+  </data>
+  <data name="Participants_Err_NoParticiant" xml:space="preserve">
+    <value>No participant found !</value>
+  </data>
+  <data name="Participants_Bt_ImportBusy" xml:space="preserve">
+    <value>Importing...</value>
+  </data>
+  <data name="StartRace_Lbl_StartTime" xml:space="preserve">
+    <value>Start time :</value>
+  </data>
+  <data name="StartRace_Lbl_BibTo" xml:space="preserve">
+    <value>Bib to :</value>
+  </data>
+  <data name="StartRace_Lbl_TimeSent" xml:space="preserve">
+    <value>Times sent :</value>
+  </data>
+  <data name="StartRace_Err_NotStarted" xml:space="preserve">
+    <value>Race not started yet !</value>
+  </data>
+  <data name="StartRace_Err_HavePassings" xml:space="preserve">
+    <value>Race have already passings !</value>
+  </data>
+  <data name="StartRace_Txt_StartTimeSent" xml:space="preserve">
+    <value>Start time resets</value>
+  </data>
+  <data name="StartRace_Txt_ConfirmReset" xml:space="preserve">
+    <value>Start time already sent, are you sure to reset it ?</value>
+  </data>
+  <data name="StartRace_Txt_StartTimeReseted" xml:space="preserve">
+    <value>Start time sent</value>
+  </data>
+  <data name="StartRace_Txt_TimeChanged" xml:space="preserve">
+    <value>Start time changed</value>
+  </data>
+  <data name="StartRace_Txt_RacceStarted" xml:space="preserve">
+    <value>Race started</value>
+  </data>
+  <data name="StartRace_Err_AlreadySent" xml:space="preserve">
+    <value>Times already sent !</value>
+  </data>
+  <data name="StartRace_Err_AlreadyStarted" xml:space="preserve">
+    <value>Race already started !</value>
+  </data>
+  <data name="StartRace_Lbl_BibFrom" xml:space="preserve">
+    <value>Bib from :</value>
+  </data>
+  <data name="StartRace_Lbl_BibRangeOnly" xml:space="preserve">
+    <value>Bib range only</value>
+  </data>
+  <data name="StartRace_Bt_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartRace_Bt_SendTime" xml:space="preserve">
+    <value>Send start time</value>
+  </data>
+  <data name="StartRace_Bt_SendTimeBusy" xml:space="preserve">
+    <value>Sending...</value>
+  </data>
+  <data name="StartRace_Bt_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="StartRace_Bt_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Timing_Lbl_RaceTime" xml:space="preserve">
+    <value>Race time :</value>
+  </data>
+  <data name="Timing_Bt_HidePassed" xml:space="preserve">
+    <value>Hide passed</value>
+  </data>
+  <data name="Timing_Bt_ShowPassed" xml:space="preserve">
+    <value>Show passed</value>
+  </data>
+  <data name="Timing_Lbl_BibPlaceholder" xml:space="preserve">
+    <value>Bib...</value>
+  </data>
+  <data name="Timing_Bt_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Timing_Txt_BibChanged" xml:space="preserve">
+    <value>Bib changed to {0}</value>
+  </data>
+  <data name="Passings_Txt_TimeChanged" xml:space="preserve">
+    <value>Time changed to {0}</value>
+  </data>
+  <data name="Passings_Txt_PassingAdded" xml:space="preserve">
+    <value>Passing added for bib  {0}</value>
+  </data>
+  <data name="Timing_Lbl_EnterBib" xml:space="preserve">
+    <value>Enter bib</value>
+  </data>
+  <data name="Passings_Lbl_EnterTime" xml:space="preserve">
+    <value>Enter time</value>
+  </data>
+  <data name="Timing_Lbl_Bib" xml:space="preserve">
+    <value>Bib :</value>
+  </data>
+  <data name="Passings_Bt_Send" xml:space="preserve">
+    <value>Send passings</value>
+  </data>
+  <data name="Passings_Bt_SendBusy" xml:space="preserve">
+    <value>Sending...</value>
+  </data>
+  <data name="Passings_Bt_AddBefore" xml:space="preserve">
+    <value>Add above</value>
+  </data>
+  <data name="Passings_Bt_AddAfter" xml:space="preserve">
+    <value>Add below</value>
+  </data>
+  <data name="Passings_Bt_EditBib" xml:space="preserve">
+    <value>Edit bib</value>
+  </data>
+  <data name="Passings_Bt_EditTime" xml:space="preserve">
+    <value>Edit time</value>
+  </data>
+  <data name="Passings_Err_PassAlreadyRemoved" xml:space="preserve">
+    <value>This passing is already removed !</value>
+  </data>
+  <data name="Passings_Err_PassNotRemoved" xml:space="preserve">
+    <value>This passing is not removed !</value>
+  </data>
+  <data name="Passings_Err_NoPassing" xml:space="preserve">
+    <value>No passing to send !</value>
+  </data>
+  <data name="RankingScratch_Lbl_NbRanked" xml:space="preserve">
+    <value>Nb ranked :</value>
+  </data>
+  <data name="RankingScratch_Lbl_Rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="RankingScratch_Lbl_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="RankingScratch_Lbl_Laps" xml:space="preserve">
+    <value>Laps</value>
+  </data>
+  <data name="RankingScratch_Lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RankingScratch_Lbl_Bib" xml:space="preserve">
+    <value>Bib</value>
+  </data>
+  <data name="RankingScratch_Bt_CalculateRanking" xml:space="preserve">
+    <value>Calculate ranking</value>
+  </data>
+  <data name="Menu_Lbl_CurrentRace" xml:space="preserve">
+    <value>Current race :</value>
+  </data>
+</root>

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Localization;
 using Radzen;
 using Radzen.Blazor;
 using System.Drawing;
+using TestAppPWA.Resources;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace TestAppPWA.Utils
@@ -83,37 +84,35 @@ namespace TestAppPWA.Utils
             return time.ToString("HH:mm:ss.fff");
         }
 
-        public static string GetPageTitle(string pageUrl)
-        //public static string GetPageTitle(IStringLocalizer<SharedResource> L, string pageUrl)
+        public static string GetPageTitle(IStringLocalizer<SharedResource> L, string pageUrl)
         {
-            return pageUrl;
-        //    switch (pageUrl.ToLower())
-        //    {
-        //        case "":
-        //        case "/":
-        //        case "index":
-        //            return L["Menu_Home"];
-        //        case "races":
-        //            return L["Menu_Races"];
-        //        case "createrace":
-        //            return L["Menu_CreateRace"];
-        //        case "participants":
-        //            return L["Menu_Participants"];
-        //        case "startrace":
-        //            return L["Menu_StartRace"];
-        //        case "timing":
-        //            return L["Menu_Timing"];
-        //        case "timingoverview":
-        //            return L["Menu_TimingOverview"];
-        //        case "passings":
-        //            return L["Menu_Passings"];
-        //        case "rankingscratch":
-        //            return L["Menu_RankingScratch"];
-        //        case "about":
-        //            return L["Menu_About"];
-        //        default:
-        //            return string.Empty;
-        //    }
+            switch (pageUrl.ToLower())
+            {
+                case "":
+                case "/":
+                case "index":
+                    return L["Menu_Home"];
+                case "races":
+                    return L["Menu_Races"];
+                case "createrace":
+                    return L["Menu_CreateRace"];
+                case "participants":
+                    return L["Menu_Participants"];
+                case "startrace":
+                    return L["Menu_StartRace"];
+                case "timing":
+                    return L["Menu_Timing"];
+                case "timingoverview":
+                    return L["Menu_TimingOverview"];
+                case "passings":
+                    return L["Menu_Passings"];
+                case "rankingscratch":
+                    return L["Menu_RankingScratch"];
+                case "about":
+                    return L["Menu_About"];
+                default:
+                    return string.Empty;
+            }
         }
 
         public static string GetNbPassingForeground(int nbPassing)

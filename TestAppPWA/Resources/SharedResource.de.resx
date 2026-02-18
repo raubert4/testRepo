@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home_TextWelcome" xml:space="preserve">
+    <value>Willkommen in der mobilen App von AR²Timing.</value>
+  </data>
+  <data name="Home_TextGoToAR2Timing" xml:space="preserve">
+    <value>Um alle Ergebnisse zu sehen, gehen Sie zu</value>
+  </data>
+  <data name="Menu_Home" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="Menu_Races" xml:space="preserve">
+    <value>Rennen</value>
+  </data>
+  <data name="Menu_Timing" xml:space="preserve">
+    <value>Zeitmessung</value>
+  </data>
+  <data name="Menu_TimingOverview" xml:space="preserve">
+    <value>Zeitmessung Übersicht </value>
+  </data>
+  <data name="Menu_CreateRace" xml:space="preserve">
+    <value>Neues Rennen erstellen</value>
+  </data>
+  <data name="Menu_Participants" xml:space="preserve">
+    <value>Teilnehmer</value>
+  </data>
+  <data name="Menu_StartRace" xml:space="preserve">
+    <value>Rennen starten</value>
+  </data>
+  <data name="Menu_Passings" xml:space="preserve">
+    <value>Durchgänge</value>
+  </data>
+  <data name="Menu_RankingScratch" xml:space="preserve">
+    <value>Gesamtwertung (Scratch)</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="Gen_Loading" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="About_Label_AppVersion" xml:space="preserve">
+    <value>App-Version:</value>
+  </data>
+  <data name="About_Bt_ClearRace" xml:space="preserve">
+    <value>Aktuelle Renndaten löschen</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="About_Bt_UpdateFromJson" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="About_Bt_CopyToJson" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="About_Bt_TestCon" xml:space="preserve">
+    <value>Verbindung testen</value>
+  </data>
+  <data name="About_Label_Lang" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
+  <data name="About_Err_CastJsonToRace" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="About_Label_UniqueId" xml:space="preserve">
+    <value>Eindeutige ID:</value>
+  </data>
+  <data name="Gen_Err_NoCurrentRace" xml:space="preserve">
+    <value>Kein aktuelles Rennen!</value>
+  </data>
+  <data name="Gen_Err_NoParticipant" xml:space="preserve">
+    <value>Kein Teilnehmer!</value>
+  </data>
+  <data name="About_Text_SureClearData" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie alle Ergebnisse und Teilnehmer löschen möchten?</value>
+  </data>
+  <data name="About_Text_CopiedToClipboard" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="About_Text_DataCleared" xml:space="preserve">
+    <value>Rennen '{0}' gelöscht</value>
+  </data>
+  <data name="Races_Text_RaceSelected" xml:space="preserve">
+    <value>Rennen '{0}' ausgewählt</value>
+  </data>
+  <data name="Participants_Text_NbImported" xml:space="preserve">
+    <value>{0} Teilnehmer importiert</value>
+  </data>
+  <data name="Passings_Text_NbSent" xml:space="preserve">
+    <value>{0} Durchgänge gesendet</value>
+  </data>
+  <data name="About_Text_ConKo" xml:space="preserve">
+    <value>Verbindung {0} fehlgeschlagen</value>
+  </data>
+  <data name="About_Text_ConOk" xml:space="preserve">
+    <value>Verbindung {0} OK</value>
+  </data>
+  <data name="CreateRace_Lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreateRace_Lbl_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="CreateRace_Lbl_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="CreateRace_Lbl_Ar2tCode" xml:space="preserve">
+    <value>AR²Timing Code</value>
+  </data>
+  <data name="CreateRace_Lbl_Server" xml:space="preserve">
+    <value>DEV-Server</value>
+  </data>
+  <data name="CreateRace_Txt_CreationDone" xml:space="preserve">
+    <value>Neues Rennen gespeichert</value>
+  </data>
+  <data name="Gen_Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Gen_Validate" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="Gen_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Gen_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Gen_No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Gen_NotSent" xml:space="preserve">
+    <value>Nicht gesendet</value>
+  </data>
+  <data name="Gen_NotStarted" xml:space="preserve">
+    <value>Nicht gestartet</value>
+  </data>
+  <data name="Gen_StartedAt" xml:space="preserve">
+    <value>Gestartet um {0}</value>
+  </data>
+  <data name="Gen_NotImplemented" xml:space="preserve">
+    <value>Noch nicht implementiert!</value>
+  </data>
+  <data name="Gen_Err_MissingField" xml:space="preserve">
+    <value>'{0}' fehlt!</value>
+  </data>
+  <data name="Races_Bt_ImportRaces" xml:space="preserve">
+    <value>Rennen importieren</value>
+  </data>
+  <data name="Races_Lbl_NbPassings" xml:space="preserve">
+    <value>Anzahl Durchgänge:</value>
+  </data>
+  <data name="Races_Lbl_NbParticipants" xml:space="preserve">
+    <value>Anzahl Teilnehmer:</value>
+  </data>
+  <data name="Participants_Bt_AddPart" xml:space="preserve">
+    <value>Teilnehmer hinzufügen</value>
+  </data>
+  <data name="Participants_Bt_Import" xml:space="preserve">
+    <value>Teilnehmer importieren</value>
+  </data>
+  <data name="Participants_Err_NoParticiant" xml:space="preserve">
+    <value>Kein Teilnehmer gefunden!</value>
+  </data>
+  <data name="Participants_Bt_ImportBusy" xml:space="preserve">
+    <value>Importieren...</value>
+  </data>
+  <data name="StartRace_Lbl_StartTime" xml:space="preserve">
+    <value>Startzeit:</value>
+  </data>
+  <data name="StartRace_Lbl_BibTo" xml:space="preserve">
+    <value>Startnr. bis:</value>
+  </data>
+  <data name="StartRace_Lbl_TimeSent" xml:space="preserve">
+    <value>Zeiten gesendet:</value>
+  </data>
+  <data name="StartRace_Err_NotStarted" xml:space="preserve">
+    <value>Rennen noch nicht gestartet!</value>
+  </data>
+  <data name="StartRace_Err_HavePassings" xml:space="preserve">
+    <value>Rennen hat bereits Durchgänge!</value>
+  </data>
+  <data name="StartRace_Txt_StartTimeSent" xml:space="preserve">
+    <value>Startzeit zurücksetzen</value>
+  </data>
+  <data name="StartRace_Txt_ConfirmReset" xml:space="preserve">
+    <value>Startzeit bereits gesendet. Möchten Sie diese wirklich zurücksetzen?</value>
+  </data>
+  <data name="StartRace_Txt_StartTimeReseted" xml:space="preserve">
+    <value>Startzeit gesendet</value>
+  </data>
+  <data name="StartRace_Txt_TimeChanged" xml:space="preserve">
+    <value>Startzeit geändert</value>
+  </data>
+  <data name="StartRace_Txt_RacceStarted" xml:space="preserve">
+    <value>Rennen gestartet</value>
+  </data>
+  <data name="StartRace_Err_AlreadySent" xml:space="preserve">
+    <value>Zeiten bereits gesendet!</value>
+  </data>
+  <data name="StartRace_Err_AlreadyStarted" xml:space="preserve">
+    <value>Rennen bereits gestartet!</value>
+  </data>
+  <data name="StartRace_Lbl_BibFrom" xml:space="preserve">
+    <value>Startnr. von:</value>
+  </data>
+  <data name="StartRace_Lbl_BibRangeOnly" xml:space="preserve">
+    <value>Nur Startnummernbereich</value>
+  </data>
+  <data name="StartRace_Bt_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartRace_Bt_SendTime" xml:space="preserve">
+    <value>Startzeit senden</value>
+  </data>
+  <data name="StartRace_Bt_SendTimeBusy" xml:space="preserve">
+    <value>Senden...</value>
+  </data>
+  <data name="StartRace_Bt_Reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="StartRace_Bt_Change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Timing_Lbl_RaceTime" xml:space="preserve">
+    <value>Rennzeit:</value>
+  </data>
+  <data name="Timing_Bt_HidePassed" xml:space="preserve">
+    <value>Passierte ausblenden</value>
+  </data>
+  <data name="Timing_Bt_ShowPassed" xml:space="preserve">
+    <value>Passierte anzeigen</value>
+  </data>
+  <data name="Timing_Lbl_BibPlaceholder" xml:space="preserve">
+    <value>Startnr...</value>
+  </data>
+  <data name="Timing_Bt_Mode" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="Timing_Txt_BibChanged" xml:space="preserve">
+    <value>Startnummer geändert in {0}</value>
+  </data>
+  <data name="Passings_Txt_TimeChanged" xml:space="preserve">
+    <value>Zeit geändert in {0}</value>
+  </data>
+  <data name="Passings_Txt_PassingAdded" xml:space="preserve">
+    <value>Durchgang für Startnr. {0} hinzugefügt</value>
+  </data>
+  <data name="Timing_Lbl_EnterBib" xml:space="preserve">
+    <value>Startnummer eingeben</value>
+  </data>
+  <data name="Passings_Lbl_EnterTime" xml:space="preserve">
+    <value>Zeit eingeben</value>
+  </data>
+  <data name="Timing_Lbl_Bib" xml:space="preserve">
+    <value>Startnr. :</value>
+  </data>
+  <data name="Passings_Bt_Send" xml:space="preserve">
+    <value>Durchgänge senden</value>
+  </data>
+  <data name="Passings_Bt_SendBusy" xml:space="preserve">
+    <value>Senden...</value>
+  </data>
+  <data name="Passings_Bt_AddBefore" xml:space="preserve">
+    <value>Oberhalb hinzufügen</value>
+  </data>
+  <data name="Passings_Bt_AddAfter" xml:space="preserve">
+    <value>Unterhalb hinzufügen</value>
+  </data>
+  <data name="Passings_Bt_EditBib" xml:space="preserve">
+    <value>Startnummer bearbeiten</value>
+  </data>
+  <data name="Passings_Bt_EditTime" xml:space="preserve">
+    <value>Zeit bearbeiten</value>
+  </data>
+  <data name="Passings_Err_PassAlreadyRemoved" xml:space="preserve">
+    <value>Dieser Durchgang wurde bereits entfernt!</value>
+  </data>
+  <data name="Passings_Err_PassNotRemoved" xml:space="preserve">
+    <value>Dieser Durchgang wurde nicht entfernt!</value>
+  </data>
+  <data name="Passings_Err_NoPassing" xml:space="preserve">
+    <value>Kein Durchgang zum Senden!</value>
+  </data>
+  <data name="RankingScratch_Lbl_NbRanked" xml:space="preserve">
+    <value>Anzahl gewertet:</value>
+  </data>
+  <data name="RankingScratch_Lbl_Rank" xml:space="preserve">
+    <value>Rang</value>
+  </data>
+  <data name="RankingScratch_Lbl_Time" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="RankingScratch_Lbl_Laps" xml:space="preserve">
+    <value>Runden</value>
+  </data>
+  <data name="RankingScratch_Lbl_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RankingScratch_Lbl_Bib" xml:space="preserve">
+    <value>Startnr.</value>
+  </data>
+  <data name="RankingScratch_Bt_CalculateRanking" xml:space="preserve">
+    <value>Klassement berechnen</value>
+  </data>
+  <data name="Menu_Lbl_CurrentRace" xml:space="preserve">
+    <value>Aktuelles Rennen:</value>
+  </data>
+</root>
