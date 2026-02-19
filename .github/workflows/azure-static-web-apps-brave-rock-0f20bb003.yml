@@ -3,11 +3,11 @@ name: App PWA
 on:
   push:
     branches:
-      - master
+      - TestBeforeAddFeatures
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - master
+      - TestBeforeAddFeatures
 
 jobs:
   build_and_deploy_job:
