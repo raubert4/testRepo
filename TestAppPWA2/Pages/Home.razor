@@ -1,0 +1,17 @@
+﻿@page "/"
+@using System.Reflection
+
+<PageTitle>Home</PageTitle>
+
+<RadzenStack Orientation="Orientation.Vertical" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Center">
+    <h1>Hello, world!</h1>
+
+    Welcome to TestAppPWA-2 app.
+
+    <RadzenText Text="@($"v{Version}")" TextStyle="TextStyle.Caption" />
+    <RadzenButton Text="Click Me" Click="@(() => Console.WriteLine("Hello!"))" Icon="help" />
+
+</RadzenStack>
+@code {
+    private string Version = Assembly.GetExecutingAssembly().GetName().Version?.ToString() ?? "Unknown";
+}
