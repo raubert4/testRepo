@@ -1,5 +1,7 @@
 ﻿@page "/weather"
+@using TestAppPWA.Services
 @inject HttpClient Http
+@inject IApiService ApiComSvc
 
 <PageTitle>Weather</PageTitle>
 
@@ -42,6 +44,8 @@ else
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+
+        var res = await ApiComSvc.CheckConnection(false);
     }
 
     public class WeatherForecast
