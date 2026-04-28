@@ -9,6 +9,10 @@
 <button class="btn btn-primary fast-tap" style="width:120px; height:50px;" @onclick="IncrementCount">  +1  </button>
 <button class="btn btn-primary fast-tap" style="width:120px; height:50px;" @onclick="IncrementCount10">  +10  </button>
 
+<!-- Buttons that react on pointer down (press/touch) -->
+<button class="btn btn-secondary fast-tap" style="width:120px; height:50px; margin-left:8px;" @onpointerdown="IncrementCount">  +1 (down)  </button>
+<button class="btn btn-secondary fast-tap" style="width:120px; height:50px; margin-left:8px;" @onpointerdown="IncrementCount10">  +10 (down)  </button>
+
 @code {
     private int currentCount = 0;
 
